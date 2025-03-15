@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+// Add your mongodb url below
 const url = 'mongodb url';
 const DB = process.env.DATABASE || url;
 
