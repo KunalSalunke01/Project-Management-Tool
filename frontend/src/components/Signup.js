@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Col, Container, Card, CardGroup, ProgressBar, Navbar, Nav, NavDropdown, Form, Image, Button, ListGroup, Offcanvas, InputGroup, Modal } from 'react-bootstrap';
 
 import { UserContext } from '../App';
-import WatchVideo from './WatchVideo';
 
 const Signup = () => {
 
@@ -250,11 +249,6 @@ const Signup = () => {
                         </Container>
                     </Row>
                     <br></br>
-                    <Row>
-                        <Container className='headingCont'>
-                            <p className='accountTxt'>See how it works <WatchVideo/></p>
-                        </Container>
-                    </Row>
                 </Container>
 
 
